@@ -1,0 +1,46 @@
+body {
+  background: url("../images/bg-without-logo.png") no-repeat center center/cover
+    #000;
+  overflow: hidden;
+}
+#app {
+  height: 100vh;
+  width: 100vw;
+}
+.marker {
+  display: block;
+  margin: auto;
+  margin-top: -130px;
+  height: 150px;
+  width: 150px;
+}
+.wheel {
+  width: auto;
+  height: auto;
+  margin-left: -350px;
+  margin-top: -360px;
+  /* opacity: 0.4; */
+}
+.button {
+  display: block;
+  width: 250px;
+  margin: 70px auto;
+  cursor: pointer !important;
+}
+.button:hover {
+  opacity: 0.8 !important;
+}
+.blur {
+  animation: blur 10s;
+}
+@keyframes blur {
+  0% {
+    filter: blur(1.5px);
+  }
+  80% {
+    filter: blur(1.5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
