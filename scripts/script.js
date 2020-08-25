@@ -14,7 +14,6 @@
   wheel.addEventListener("transitionend", () => {
     // wheel.classList.remove('blur');
     startButton.style.pointerEvents = "auto";
-    // Need to set transition to none as we want to rotate instantly
     wheel.style.transition = "none";
     // Calculate degree on a 360 degree basis to get the "natural" real rotation
     // Important because we want to start the next spin from that one
