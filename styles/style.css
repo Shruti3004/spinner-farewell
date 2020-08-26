@@ -17,9 +17,9 @@ body {
   width: 150px;
 }
 .wheel {
-  width: auto;
+  width: 150%;
   height: auto;
-  /* margin-left: -350px; */
+  margin-left: -340px;
   /* margin-top: -360px; */
   /* opacity: 0.4; */
 }
