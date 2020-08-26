@@ -1,4 +1,4 @@
-const degArray = [20, 30, 40];
+const degArray = [20, 30, 40, 50, 60];
 let i = 0;
 (function () {
   i = localStorage.getItem("counter") || i;
@@ -23,6 +23,9 @@ let i = 0;
     // wheel.classList.remove("blur");
     startButton.style.pointerEvents = "auto";
     wheel.style.transition = "none";
+    // Calculate degree on a 360 degree basis to get the "natural" real rotation
+    // Important because we want to start the next spin from that one
+    // Use modulus to get the rest value from 360
     let actualDeg = degArray[i] % 360;
     // Set the real rotation instantly without animation
     wheel.style.transform = `rotate(${actualDeg}deg)`;
