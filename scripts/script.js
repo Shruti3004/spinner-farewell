@@ -1,4 +1,4 @@
-const degArray = [20, 30, 40, 50, 60];
+const degArray = [4020, 5030, 6040, 7050, 8060, 9070];
 let i = 0;
 (function () {
   i = localStorage.getItem("counter") || i;
