@@ -23,7 +23,8 @@ let i = 0;
     // wheel.classList.remove("blur");
     startButton.style.pointerEvents = "auto";
     wheel.style.transition = "none";
-    const actualDeg = deg % 360;
+    let actualDeg = degArray[i] % 360;
+    // Set the real rotation instantly without animation
     wheel.style.transform = `rotate(${actualDeg}deg)`;
   });
 })();
