@@ -8,6 +8,16 @@ body {
   width: 100vw;
   margin: auto;
 }
+i {
+  color: #fd70d1;
+}
+.centered-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
 .marker {
   display: block;
   margin: auto;
@@ -17,18 +27,17 @@ body {
   width: 150px;
 }
 .wheel {
-  width: 150%;
+  width: 300% !important;
   height: auto;
-  margin-left: -340px;
-  /* margin-top: -360px; */
+  /* transform: scale(3); */
+  margin-left: -750px;
+  /* margin-top: -380px; */
   /* opacity: 0.4; */
-}
+  /* }
 .button {
-  display: block;
-  width: 250px;
-  margin: 70px auto;
-  /* background: #FD70D1; */
-  cursor: pointer !important;
+  /* display: block; */
+  /* width: 250px; */
+  /* margin: 70px auto; */
 }
 .button:hover {
   opacity: 0.8 !important;
@@ -46,4 +55,7 @@ body {
   100% {
     filter: blur(0px);
   }
+}
+.task-button {
+  background: #fd70d1;
 }

@@ -1,10 +1,20 @@
-const degArray = [4020, 5030, 6040, 7050, 8060, 9070];
+const degArray = [-4060, -5040, -6040, -7050, -8050, -9170];
+/*
+  Rohit Jhakmola
+  Shobhit Aggarwal
+  Ayush Khare/Srivastava
+  Anant Jain
+  Kunal Vishnoi
+  Rahul Singh
+*/
+const taskArray = ["Task1", "Task2", "Task3", "Task4", "Task5", "Task6"];
 let i = 0;
 (function () {
   i = localStorage.getItem("counter") || i;
   const wheel = document.querySelector(".wheel");
   const startButton = document.querySelector(".button");
-  let deg = 0;
+  const getTask = document.querySelector(".get-task");
+  const displayTask = document.querySelector(".display-task");
 
   startButton.addEventListener("click", () => {
     localStorage.setItem("counter", ++i);
@@ -28,6 +38,10 @@ let i = 0;
     // Use modulus to get the rest value from 360
     let actualDeg = degArray[i] % 360;
     // Set the real rotation instantly without animation
-    wheel.style.transform = `rotate(${actualDeg}deg)`;
+    // wheel.style.transform = `rotate(${actualDeg}deg)`;
+  });
+
+  getTask.addEventListener("click", () => {
+    let index = (displayTask.innerText = `${taskArray[i]}`);
   });
 })();
