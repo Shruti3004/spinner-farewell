@@ -1,7 +1,7 @@
-const degArray = [4060, 5040, 6040, 7040, 8050, 9140];
+const degArray = [4060, 5030, 6040, 7040, 8100, 9140, 7060, 5070, 5030, 4050, 5050];
 /*
   Rohit Jhakmola 6040 (task 3)
-  Shobhit Aggarwal  9140
+  Shobhit Aggarwal  8100
   Ayush Khare/Srivastava 4060 (task 1)
   Anant Jain 5070
   Kunal Vishnoi
@@ -10,14 +10,20 @@ const degArray = [4060, 5040, 6040, 7040, 8050, 9140];
   Ishneet Kaur 7060
   Rohit Kumar 7040 (task 4)
   vasu Mehra 5050
+  Shubham sir 4050
 */
 const taskArray = [
   "Give introduction of yourself replacing a word by another word (given by the audience) or making a sound.",
-  "Task2",
+  "Prank someone on call (mimic oggy) (prank decided by us)",
   "Wear lipstic for the rest of the farewell party/ Join your eyebrows with kajal for the rest of the party",
   "Online tutorial how to make a joint (with paper and sugar)",
   "Post a story on insta the details and image will be given by the rest of the team.",
-  "Task6",
+  "Open up about your love life",
+  "Sing a romantic song in angry tone",
+  "Name 10 brands of alcohol",
+  "Power to give any dare to anyone else",
+  "Dance on a song while 40 people watching you",
+  "Show your account balance",
 ];
 let i = 0;
 (function () {
