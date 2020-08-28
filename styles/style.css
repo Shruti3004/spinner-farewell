@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap");
+
 body {
   background: url("../images/bg-without-logo.png") no-repeat center center/cover
     #000;
   overflow: hidden;
+  font-family: "Poppins", sans-serif !important;
 }
 #app {
   height: 100vh;
@@ -27,9 +30,9 @@ i {
   width: 150px;
 }
 .wheel {
-  width: 280% !important;
+  width: 250% !important;
   height: auto;
-  margin-left: -700px;
+  margin-left: -730px;
 }
 button {
   padding: 10px 120px !important;
@@ -43,9 +46,17 @@ button {
   animation: blur 10s;
 }
 .task-block {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(34, 34, 34, 0.5);
   border: 2px solid #fff;
+  border-radius: 5px;
   padding: 30px 100px !important;
+}
+.punishment-button {
+  background: red;
+}
+.punishment-button:hover {
+  background: transparent !important;
+  border: 2px red solid !important;
 }
 @keyframes blur {
   0% {
