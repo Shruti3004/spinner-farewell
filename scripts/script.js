@@ -1,41 +1,56 @@
 const degArray = [
   4060,
-  5030,
+  6070,
+  5070,
   6040,
   7040,
-  9210,
-  8100,
+  6060,
   7060,
-  5070,
   5030,
-  4050,
   5050,
+  8100,
+  4090,
+  4050,
+  1,
+  8080,
+  6050,
+  5030,
 ];
-/*
-  Rohit Jhakmola 6040 (task 3)
-  Shobhit Aggarwal  8100
-  Ayush Khare/Srivastava 4060 (task 1)
-  Anant Jain 5070
-  Kunal Vishnoi
-  Rahul Singh 5030
-  Abhishek   9210 (task 5)
-  Ishneet Kaur 7060
-  Rohit Kumar 7040 (task 4)
-  vasu Mehra 5050
-  Shubham sir 4050
+/* 
+  Khare sir   4060
+  Kunal sir    1
+  Anant sir    5070
+  Jakhmola sir  6040
+  Kumar Rohit Sir  7040
+  Siddhartha Sir 1
+  Ishneet Maam 7060
+  Rahul Sir    5030
+  VAshu Sir   5050
+  Shobhit Sir   8100
+  Abhishek Sir   9210
+  Shubham Sir   4050
+  Pulkit Sir    1
+  Ayush Srivastava  1
+  Sharad Sir  1
+  Rahul Sir   5030
 */
 const taskArray = [
   "Give introduction of yourself replacing a word by another word (given by the audience) or making a sound.",
-  "Prank someone on call (mimic oggy) (prank decided by us)",
+  "Explain a 5 year old how he came into this world",
+  "Name 10 brands of alcohol",
   "Wear lipstic for the rest of the farewell party/ Join your eyebrows with kajal for the rest of the party",
   "Online tutorial how to make a joint (with paper and sugar)",
-  "Post a story on insta the details and image will be given by the rest of the team.",
-  "Open up about your love life",
+  "Propose someone right now",
   "Sing a romantic song in angry tone",
-  "Name 10 brands of alcohol",
-  "Power to give any dare to anyone else",
-  "Dance on a song while 40 people watching you",
+  "Prank someone on call (mimic oggy) (prank decided by us)",
   "Show your account balance",
+  "Open up about your love life",
+  "Post a story on insta the image and the details will be given by the rest of the team",
+  "Dance on a song while 40 people watching you",
+  "Open the gallery and scroll through with screen sharing",
+  "Tell something that u have done in college and none of us knows about it",
+  "Mimic Jakhmola sir",
+  "Power to give any dare to anyone else",
 ];
 let i = 0;
 (function () {
