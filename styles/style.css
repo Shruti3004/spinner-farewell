@@ -27,14 +27,15 @@ i {
   width: 150px;
 }
 .wheel {
-  width: 300% !important;
+  width: 280% !important;
   height: auto;
-  margin-left: -750px;
+  margin-left: -700px;
 }
 button {
   padding: 10px 120px !important;
 }
-.button:hover {
+.button:hover,
+.get-task:hover {
   background: transparent !important;
   border: 3px #fd70d1 solid !important;
 }
@@ -42,8 +43,9 @@ button {
   animation: blur 10s;
 }
 .task-block {
-  background: rgba(0, 0, 0, 0.7);
-  border: 5px solid #fff;
+  background: rgba(0, 0, 0, 0.5);
+  border: 3px solid #fff;
+  padding: 30px 100px !important;
 }
 @keyframes blur {
   0% {
