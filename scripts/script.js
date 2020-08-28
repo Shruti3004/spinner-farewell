@@ -11,7 +11,14 @@ const degArray = [4060, 5040, 6040, 7040, 8050, 9140];
   Rohit Kumar 7040 (task 4)
   vasu Mehra 5050
 */
-const taskArray = ["Task1", "Task2", "Task3", "Task4", "Task5", "Task6"];
+const taskArray = [
+  "Give introduction of yourself replacing a word by another word (given by the audience) or making a sound.",
+  "Task2",
+  "Wear lipstic for the rest of the farewell party/ Join your eyebrows with kajal for the rest of the party",
+  "Online tutorial how to make a joint (with paper and sugar)",
+  "Post a story on insta the details and image will be given by the rest of the team.",
+  "Task6",
+];
 let i = 0;
 (function () {
   i = localStorage.getItem("counter") || i;
