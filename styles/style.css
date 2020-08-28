@@ -29,21 +29,21 @@ i {
 .wheel {
   width: 300% !important;
   height: auto;
-  /* transform: scale(3); */
   margin-left: -750px;
-  /* margin-top: -380px; */
-  /* opacity: 0.4; */
-  /* }
-.button {
-  /* display: block; */
-  /* width: 250px; */
-  /* margin: 70px auto; */
+}
+button {
+  padding: 10px 120px !important;
 }
 .button:hover {
-  opacity: 0.8 !important;
+  background: transparent !important;
+  border: 3px #fd70d1 solid !important;
 }
 .blur {
   animation: blur 10s;
+}
+.task-block {
+  background: rgba(0, 0, 0, 0.7);
+  border: 5px solid #fff;
 }
 @keyframes blur {
   0% {

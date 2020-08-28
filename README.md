@@ -1,1 +1,1 @@
-# spinner-farewell
+# Spinner-farewell
