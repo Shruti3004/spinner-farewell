@@ -57,7 +57,7 @@ const taskArray = [
   "Propose someone right now",
   "Call the person who is on top of your call list and wish him a happy birthday for 5 mins until he/she says thank you",
   "Sing a romantic song in angry tone",
-  "Prank someone on call (mimic oggy) (prank decided by us)",
+  "Prank someone on call (prank decided by us - customer care)",
   "Show your account balance",
   "Open up about your love life",
   "Give a suitable word for each of the teammamte",
