@@ -36,10 +36,10 @@ i {
   height: auto;
   margin-left: -720px;
 }
-button {
-  padding: 10px 120px !important;
+.spin-button {
+  padding: 10px 50px !important;
 }
-.button:hover,
+.spin-button:hover,
 .get-task:hover {
   background: transparent !important;
   border: 2px #fd70d1 solid !important;
@@ -73,4 +73,8 @@ button {
 }
 .task-button {
   background: #fd70d1;
+}
+.modal {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
 }

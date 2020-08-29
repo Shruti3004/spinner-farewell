@@ -11,7 +11,7 @@ const degArray = [
   8100,
   4090,
   4050,
-  1,
+  5090,
   8080,
   6050,
   5030,
@@ -56,7 +56,7 @@ let i = 0;
 (function () {
   i = localStorage.getItem("counter") || i;
   const wheel = document.querySelector(".wheel");
-  const startButton = document.querySelector(".button");
+  const startButton = document.querySelector(".spin-button");
   const getTask = document.querySelector(".get-task");
   const displayTask = document.querySelector(".display-task");
 
