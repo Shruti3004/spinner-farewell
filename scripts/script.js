@@ -1,14 +1,19 @@
 const degArray = [
+  4070,
   4060,
+  5040,
   6070,
   5070,
+  7070,
   6040,
   7040,
   6060,
+  6020,
   7060,
   5030,
   5050,
   8100,
+  7030,
   4090,
   4050,
   5090,
@@ -17,17 +22,22 @@ const degArray = [
   5030,
 ];
 /* 
+  Vaibhav
   Khare sir   4060
+  Aditya       5040
   Kunal sir    1
   Anant sir    5070
+  Kalpit   7070
   Jakhmola sir  6040
   Kumar Rohit Sir  7040
   Siddhartha Sir 1
+  DC sir
   Ishneet Maam 7060
   Rahul Sir    5030
   VAshu Sir   5050
   Shobhit Sir   8100
-  Abhishek Sir   9210
+  Vivek Baghela 7030
+  Abhishek Sir   4090
   Shubham Sir   4050
   Pulkit Sir    1
   Ayush Srivastava  1
@@ -35,16 +45,21 @@ const degArray = [
   Rahul Sir   5030
 */
 const taskArray = [
-  "Give introduction of yourself replacing a word by another word (given by the audience) or making a sound.",
+  "Choose a 4th year and have a conversation with him in a female voice on the topic- Mehangai Badh gai hai ",
+  "Give introduction of yourself replacing a word by another word (given by the audience) or making a sound",
+  "Talk to your pillow as it is your crush",
   "Explain a 5 year old how he came into this world",
   "Name 10 brands of alcohol",
+  "Howl like a wolf twice(very loud)",
   "Wear lipstic for the rest of the farewell party/ Join your eyebrows with kajal for the rest of the party",
   "Online tutorial how to make a joint (with paper and sugar)",
   "Propose someone right now",
+  "Call the person who is on top of your call list and wish him a happy birthday for 5 mins until he/she says thank you",
   "Sing a romantic song in angry tone",
   "Prank someone on call (mimic oggy) (prank decided by us)",
   "Show your account balance",
   "Open up about your love life",
+  "Give a suitable word for each of the teammamte",
   "Post a story on insta the image and the details will be given by the rest of the team",
   "Dance on a song while 40 people watching you",
   "Open the gallery and scroll through with screen sharing",
