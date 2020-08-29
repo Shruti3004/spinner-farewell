@@ -1,4 +1,5 @@
 const degArray = [
+  5030,
   4070,
   4060,
   5040,
@@ -19,7 +20,6 @@ const degArray = [
   5090,
   8080,
   6050,
-  5030,
 ];
 /* 
   Vaibhav
@@ -45,6 +45,7 @@ const degArray = [
   Rahul Sir   5030
 */
 const taskArray = [
+  "Power to give any dare to anyone else",
   "Choose a 4th year and have a conversation with him in a female voice on the topic- Mehangai Badh gai hai ",
   "Give introduction of yourself replacing a word by another word (given by the audience) or making a sound",
   "Talk to your pillow as it is your crush",
@@ -65,7 +66,6 @@ const taskArray = [
   "Open the gallery and scroll through with screen sharing",
   "Tell something that u have done in college and none of us knows about it",
   "Mimic Jakhmola sir",
-  "Power to give any dare to anyone else",
 ];
 let i = 0;
 (function () {
